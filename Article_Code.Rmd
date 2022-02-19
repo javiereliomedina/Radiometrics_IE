@@ -3,15 +3,10 @@ title: "Application of airborne radiometric surveys for large-scale geogenic rad
 author: "J. Elío, Q. Crowley, R. Scanlon, J. Hodgson, S. Long, M. Cooper, V. Gallagher"
 date: "15/09/2020"
 output:
-  pdf_document:
-    latex_engine: xelatex
-    fig_caption: no
-    toc: yes
-    toc_depth: 2
-    number_sections: yes
-    keep_tex: true
-urlcolor: blue
-fontsize: 12pt
+  html_document:
+    css: "style.css"
+    includes:
+      in_header: hide_code.html # inspired by: https://github.com/edzer/sdsr.git
 ---
 
 ```{r setup, include=FALSE}
@@ -27,6 +22,7 @@ fontsize: 12pt
   library(sf)
   library(stars)
   library(parallel)
+  library(kableExtra)
 ```
 
 **Citation**: Elio J et al. Application of airborne radiometric surveys for large-scale
@@ -80,8 +76,8 @@ We have aggregated the initial data (with a resolution of 50 x 50 m; i.e. *Tellu
         )
   ) %>%
     mutate_if(is.numeric, ~round(., 2)) %>%
-    knitr::kable(format = "latex", booktabs=TRUE) %>%
-    kableExtra::kable_styling(position = "center")
+    kbl() %>%
+    kable_styling()
   
 ```
 
@@ -431,8 +427,8 @@ Summary
     mutate_if(is.numeric, ~round(., 0)) %>%
     as_tibble() %>%
     select(-geometry) %>% 
-    knitr::kable(format = "latex", booktabs=TRUE) %>% 
-    kableExtra::kable_styling(latex_options = "scale_down")
+    kbl() %>%
+    kable_styling()
 
 ```
 
@@ -479,8 +475,8 @@ Summary
   
   Sum %>%
     mutate_if(is.numeric, ~round(., 2)) %>%
-    knitr::kable(format = "latex", booktabs=TRUE) %>%
-    kableExtra::kable_styling(position = "center")
+    kbl() %>%
+    kable_styling()
   
 ```
 
@@ -580,8 +576,8 @@ Table_6 <- cbind(SM, select(CM, -RP_class), BTM) %>%
     mutate_if(is.numeric, ~round(., 2)) 
 
 Table_6 %>%
-    knitr::kable(format = "latex", booktabs = TRUE) %>%
-    kableExtra::kable_styling(position = "center")
+    kbl() %>%
+    kable_styling()
 
 ```
 
