@@ -11,6 +11,7 @@ geogenic radon potential classification. Journal of the European Radon Associati
 **NOTE**: The Indoor radon data used in this article were provided by the Environmental Protection Agency of Ireland. The data are confidential and we needed to delete them after publishing the article. Therefore, the code of this repository may not work. 
 
 
+
 **Abstract**:
 
 **Background**: Indoor radon represents an important health issue to the general population. Therefore, accurate radon risk maps help public authorities to prioritise areas where mitigation actions should be implemented. As the main source of indoor radon is the soil where the building is constructed, maps derived from geogenic factors ([e.g. geogenic radon potential [GRP]) are viewed as valuable tools for radon mapping.
