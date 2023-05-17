@@ -1,6 +1,6 @@
 # Application of airborne radiometric surveys for large-scale radon potential classification
 
-Code for the article published in *Journal of the European Radon Association*. 
+Code for the article published in *Journal of the European Radon Association*. Link: https://javiereliomedina.github.io/Radiometrics_IE/
 
 
 **Citation**: Elio J et al. Application of airborne radiometric surveys for large-scale
