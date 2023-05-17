@@ -8,10 +8,10 @@ geogenic radon potential classification. Journal of the European Radon Associati
 
 **Corresponding author**: Javier Elío; Centre for the Environment, Trinity College, Dublin 2, Ireland.  ORCID: [0000-0003-0624-2345](https://orcid.org/0000-0003-0624-2345); javier.elio@hvl.no - javiereliomedina@gmail.com.
 
-**NOTE**: The Indoor radon data used in this article were provided by the Environmental Protection Agency of Ireland. The data are confidential and we deleted them after publishing the article. Therefore, the code of this repository may not work. 
+**NOTE**: The Indoor radon data used in this article were provided by the Environmental Protection Agency of Ireland. The data are confidential and we needed to delete them after publishing the article. Therefore, the code of this repository may not work. 
 
 
-**Abstract**:\
+**Abstract**:
 
 **Background**: Indoor radon represents an important health issue to the general population. Therefore, accurate radon risk maps help public authorities to prioritise areas where mitigation actions should be implemented. As the main source of indoor radon is the soil where the building is constructed, maps derived from geogenic factors ([e.g. geogenic radon potential [GRP]) are viewed as valuable tools for radon mapping.
 
